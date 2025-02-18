@@ -45,6 +45,7 @@ import { TokenManagerPlugin, TOKEN_MANAGER_PLUGIN } from '@dxos/plugin-token-man
 import { WildcardPlugin, WILDCARD_PLUGIN } from '@dxos/plugin-wildcard';
 import { WnfsPlugin, WNFS_PLUGIN } from '@dxos/plugin-wnfs';
 import { isNotFalsy } from '@dxos/util';
+import { HelloWorldPlugin } from 'hello-world';
 
 import { steps } from './help';
 import { WelcomePlugin, WELCOME_PLUGIN } from './plugins/welcome';
@@ -141,6 +142,7 @@ export const plugins = ({ appKey, config, services, observability, isDev, isPwa,
     ExplorerPlugin(),
     FilesPlugin(),
     GraphPlugin(),
+    HelloWorldPlugin(),
     HelpPlugin({ steps }),
     InboxPlugin(),
     IntentPlugin(),
