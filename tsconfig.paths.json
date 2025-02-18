@@ -78,7 +78,8 @@
       "@dxos/app-graph": ["packages/sdk/app-graph/src/index.ts"],
       "@dxos/migrations": ["packages/sdk/migrations/src/index.ts"],
       "@dxos/shell/react": ["packages/sdk/shell/src/react.ts"],
-      "@dxos/shell/testing": ["packages/sdk/shell/src/testing/index.ts"]
+      "@dxos/shell/testing": ["packages/sdk/shell/src/testing/index.ts"],
+      "hello-world": ["packages/plugins/hello-world/src/index.ts"]
     }
   },
   "include": ["**/*"]
